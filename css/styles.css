@@ -204,11 +204,13 @@ li {list-style-type: none;}
 }
 .header-box{
     display: flex;
-    align-content: center;
     justify-content: space-between;
 }
 .menu-contacts-header{
     display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .contacts-list{
     display: flex;
@@ -228,15 +230,13 @@ li {list-style-type: none;}
 }
 .page-header-container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 .header-line{
     border-bottom: 1px solid #ECECEC;
 }
 .page-navigation{
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 .menu-mail-header:active,
 .menu-mail-header:hover,
