@@ -102,8 +102,8 @@ li {list-style-type: none;}
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    width: 152px;
-    height: 30px;
+    width: 216px;
+    height: 50px;
     left: 724px;
     top: 440px;
 }
@@ -166,8 +166,7 @@ li {list-style-type: none;}
     font-size: 16px;
     line-height: 1.2;
     color: var(--primary-text-color);
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     text-align: center;
 
 }
@@ -177,10 +176,8 @@ li {list-style-type: none;}
     font-size: 16px;
     line-height: 1.1;    
     color: var(--secondary-text-color);
-    padding-bottom: 30px;
-    
+
     text-align: center;
-    
 }
 .team-item{background-color: var(--tertiary-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -191,6 +188,9 @@ li {list-style-type: none;}
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+.team-text-box { 
+    padding: 30px;
 }
 
 /*------------------------TEAM--------------------------*/
@@ -323,11 +323,10 @@ li {list-style-type: none;}
     line-height: 1.2;
 }
 
-.footer-contacts-box{
-    margin-top: 20px;
+.footer-adress-box{    margin-top: 20px;
 }
 
-.footer-contacts-box2{
+.footer-contacts-box{
     padding-bottom: 9px;
 }
 
@@ -349,7 +348,7 @@ li {list-style-type: none;}
     background-color: var(--primary-button-bg-color);
     border-radius: 4px;
     border: none;
-    padding-right: 6px;
+    padding-top: 6px;
     padding-bottom: 6px;
     padding-right: 22px;
     padding-left: 22px;
